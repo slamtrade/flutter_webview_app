@@ -55,7 +55,6 @@ class _MyAppsState extends State<AfterSplash> {
       ),
       url: "http://crypto.slamtrade.com/",
       withJavascript: true,
-      withZoom: true,
       withLocalStorage: true,
       enableAppScheme: true,
       primary: true,
