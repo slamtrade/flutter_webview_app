@@ -50,9 +50,11 @@ class _MyAppsState extends State<AfterSplash> {
   Widget build(BuildContext context) {
     return WebviewScaffold(
       appBar: AppBar(
+        // Enter your custom title
         title: Text("Crypto Signals"),
         backgroundColor: Colors.blueGrey[900],
       ),
+      // Enter your custom url
       url: "http://crypto.slamtrade.com/",
       withJavascript: true,
       withLocalStorage: true,
